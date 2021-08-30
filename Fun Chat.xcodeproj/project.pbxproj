@@ -13,6 +13,11 @@
 		6A75868C26D6BAD700F3D574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A75868A26D6BAD700F3D574 /* Main.storyboard */; };
 		6A75868E26D6BADB00F3D574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A75868D26D6BADB00F3D574 /* Assets.xcassets */; };
 		6A75869126D6BADB00F3D574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A75868F26D6BADB00F3D574 /* LaunchScreen.storyboard */; };
+		6A75869926D6BCB100F3D574 /* UnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A75869826D6BCB100F3D574 /* UnderlineTextField.swift */; };
+		6A9A526C26DCAEC90054E02E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A526826DCAEC90054E02E /* WelcomeViewController.swift */; };
+		6A9A526D26DCAEC90054E02E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A526926DCAEC90054E02E /* ChatViewController.swift */; };
+		6A9A526E26DCAEC90054E02E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A526A26DCAEC90054E02E /* LoginViewController.swift */; };
+		6A9A526F26DCAEC90054E02E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A526B26DCAEC90054E02E /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		6A75868D26D6BADB00F3D574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A75869026D6BADB00F3D574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A75869226D6BADB00F3D574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A75869826D6BCB100F3D574 /* UnderlineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextField.swift; sourceTree = "<group>"; };
+		6A9A526826DCAEC90054E02E /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		6A9A526926DCAEC90054E02E /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		6A9A526A26DCAEC90054E02E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6A9A526B26DCAEC90054E02E /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				6A75868D26D6BADB00F3D574 /* Assets.xcassets */,
 				6A75868F26D6BADB00F3D574 /* LaunchScreen.storyboard */,
 				6A75869226D6BADB00F3D574 /* Info.plist */,
+				6A75869826D6BCB100F3D574 /* UnderlineTextField.swift */,
+				6A9A526926DCAEC90054E02E /* ChatViewController.swift */,
+				6A9A526A26DCAEC90054E02E /* LoginViewController.swift */,
+				6A9A526B26DCAEC90054E02E /* RegisterViewController.swift */,
+				6A9A526826DCAEC90054E02E /* WelcomeViewController.swift */,
 			);
 			path = "Fun Chat";
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A9A526E26DCAEC90054E02E /* LoginViewController.swift in Sources */,
 				6A75868926D6BAD700F3D574 /* ViewController.swift in Sources */,
+				6A9A526C26DCAEC90054E02E /* WelcomeViewController.swift in Sources */,
+				6A9A526F26DCAEC90054E02E /* RegisterViewController.swift in Sources */,
 				6A75868526D6BAD700F3D574 /* AppDelegate.swift in Sources */,
+				6A75869926D6BCB100F3D574 /* UnderlineTextField.swift in Sources */,
+				6A9A526D26DCAEC90054E02E /* ChatViewController.swift in Sources */,
 				6A75868726D6BAD700F3D574 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
