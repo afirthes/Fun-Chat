@@ -23,6 +23,10 @@
 		6AD6B0FE26DE9B4000D690DA /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6B0FC26DE9B4000D690DA /* MessageCell.swift */; };
 		6AD6B0FF26DE9B4000D690DA /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6B0FD26DE9B4000D690DA /* MessageCell.xib */; };
 		6AD6B10226E0774400D690DA /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6AD6B10126E0774400D690DA /* IQKeyboardManagerSwift */; };
+		6AD6B10A26E090B400D690DA /* register.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6B10826E090B300D690DA /* register.gif */; };
+		6AD6B10B26E090B400D690DA /* chat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6B10926E090B400D690DA /* chat.gif */; };
+		6AD6B10E26E0911600D690DA /* storyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6B10C26E0911400D690DA /* storyboard.png */; };
+		6AD6B10F26E0911600D690DA /* ai.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6B10D26E0911600D690DA /* ai.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		6AD6B0F826DE091500D690DA /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		6AD6B0FC26DE9B4000D690DA /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		6AD6B0FD26DE9B4000D690DA /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		6AD6B10826E090B300D690DA /* register.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = register.gif; sourceTree = "<group>"; };
+		6AD6B10926E090B400D690DA /* chat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chat.gif; sourceTree = "<group>"; };
+		6AD6B10C26E0911400D690DA /* storyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyboard.png; sourceTree = "<group>"; };
+		6AD6B10D26E0911600D690DA /* ai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ai.png; sourceTree = "<group>"; };
 		A4DD59B941AA6CA1D7394D0B /* Pods-Fun Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fun Chat.debug.xcconfig"; path = "Target Support Files/Pods-Fun Chat/Pods-Fun Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		E1478866E157F0EAC4F386AE /* Pods-Fun Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fun Chat.release.xcconfig"; path = "Target Support Files/Pods-Fun Chat/Pods-Fun Chat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +71,7 @@
 		6A75867826D6BAD700F3D574 = {
 			isa = PBXGroup;
 			children = (
+				6AD6B10326E08FC300D690DA /* Readme */,
 				6A75868326D6BAD700F3D574 /* Fun Chat */,
 				6A75868226D6BAD700F3D574 /* Products */,
 				E31C73509CC7C43F67D2DD40 /* Pods */,
@@ -98,6 +107,17 @@
 				6AD6B0FD26DE9B4000D690DA /* MessageCell.xib */,
 			);
 			path = "Fun Chat";
+			sourceTree = "<group>";
+		};
+		6AD6B10326E08FC300D690DA /* Readme */ = {
+			isa = PBXGroup;
+			children = (
+				6AD6B10D26E0911600D690DA /* ai.png */,
+				6AD6B10C26E0911400D690DA /* storyboard.png */,
+				6AD6B10926E090B400D690DA /* chat.gif */,
+				6AD6B10826E090B300D690DA /* register.gif */,
+			);
+			path = Readme;
 			sourceTree = "<group>";
 		};
 		7D07178093521BED2B3DCDA7 /* Frameworks */ = {
@@ -183,8 +203,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AD6B0FF26DE9B4000D690DA /* MessageCell.xib in Resources */,
+				6AD6B10B26E090B400D690DA /* chat.gif in Resources */,
+				6AD6B10E26E0911600D690DA /* storyboard.png in Resources */,
 				6A75869126D6BADB00F3D574 /* LaunchScreen.storyboard in Resources */,
 				6A7075F426DCDC88001C473A /* GoogleService-Info.plist in Resources */,
+				6AD6B10F26E0911600D690DA /* ai.png in Resources */,
+				6AD6B10A26E090B400D690DA /* register.gif in Resources */,
 				6A75868E26D6BADB00F3D574 /* Assets.xcassets in Resources */,
 				6A75868C26D6BAD700F3D574 /* Main.storyboard in Resources */,
 			);
